@@ -59,3 +59,25 @@
 .title {
   margin:15px 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .box {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .step-img1, .step-img2, .step-img3 {
+    background-position: middle;
+    height: 250px;
+  }
+
+  .box:nth-of-type(2) {
+    margin: 20px 0;
+  }
+}
